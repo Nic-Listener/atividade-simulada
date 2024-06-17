@@ -1,4 +1,4 @@
-header{
+header {
     text-align: center;
     background-color: black;
     color: white;
@@ -7,21 +7,21 @@ header{
     height: 7rem;
     padding: 0.3rem;
     position: fixed;
-}
+  }
 
-div h2{
+div h2 {
     font-size: 3.5rem;
     font-weight: bold;
 }
 
-div div{
+div div {
     font-size: large;
     width: 50rem;
     margin: 0.5rem;
     text-align: justify;
 }
 
-.botaoMenu{
+.botaoMenu {
     align-items: center;
     margin: 1rem 0 0;
     background-color: black;
