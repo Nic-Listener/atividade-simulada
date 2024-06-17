@@ -1,13 +1,17 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+"use client";
+
+import Header, {Menu} from "./components/Header";
 import { Introducao } from "./components/Header";
+import MovieList from "./components/MovieList";
 
 export default function Home() {
-    return (
+  return (
     <>
       <Header />
+      <Menu estaAberto= {true}/>
       <main>
-      <Footer />
         <Introducao />
         <MovieList />
       </main>
