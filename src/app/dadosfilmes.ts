@@ -1,6 +1,13 @@
 import interestelar from "../../public/interestellar.png";
+import { StaticImageData } from "next/image";
 
-export const filmes = 
+type Filmes = {
+    titulo: string;
+    imagemFilme: StaticImageData;
+    descricao: Array<string>;
+  };
+  
+  export const filmes: Filmes[] = 
     {
         titulo: "Interestelar",
         imagemFilme: interestelar,
